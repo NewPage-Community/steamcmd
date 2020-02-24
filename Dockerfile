@@ -12,8 +12,9 @@ RUN set -x \
 	&& sed -i 's@/deb.debian.org/@/mirrors.aliyun.com/@g;s@/security.debian.org/@/mirrors.aliyun.com/@g' /etc/apt/sources.list \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends --no-install-suggests \
-		lib32stdc++6=8.3.0-6 \
-		lib32gcc1=1:8.3.0-6 \
+		lib32stdc++6 \
+		lib32z1 \
+		g++-multilib \
 		wget \
 		rsync \
 		ca-certificates \
