@@ -15,6 +15,7 @@ RUN set -x \
 		lib32stdc++6 \
 		lib32z1 \
 		g++-multilib \
+		gdb \
 		wget \
 		rsync \
 		ca-certificates \

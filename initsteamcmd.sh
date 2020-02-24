@@ -7,7 +7,8 @@ cd $STEAMCMDDIR
 wget -qO- 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz' | tar zxf -
 
 #Init steamcmd
-$STEAMCMDDIR/steamcmd.sh +login anonymous +quit 
+$STEAMCMDDIR/steamcmd.sh +login anonymous +quit
+ln -s $STEAMCMDDIR/linux32/steamclient.so /home/steam/.steam/sdk32/steamclient.so
 
 #Update file
 { \
