@@ -15,6 +15,7 @@ RUN set -x \
 		lib32stdc++6=8.3.0-6 \
 		lib32gcc1=1:8.3.0-6 \
 		wget \
+		rsync \
 		ca-certificates \
 	&& useradd -u 1000 -m steam \
 	&& su steam -c "initsteamcmd.sh" \
