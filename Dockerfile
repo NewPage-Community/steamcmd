@@ -17,6 +17,7 @@ RUN set -x \
 		g++-multilib \
 		gdb \
 		wget \
+		curl \
 		rsync \
 		ca-certificates \
 	&& useradd -u 1000 -m steam \
