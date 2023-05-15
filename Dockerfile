@@ -1,4 +1,4 @@
-FROM registry.new-page.xyz/debian:buster-slim
+FROM debian:bullseye-slim
 
 ENV STEAMCMDDIR="/home/steam/steamcmd" \
 	STEAMAPPNAME="" \
